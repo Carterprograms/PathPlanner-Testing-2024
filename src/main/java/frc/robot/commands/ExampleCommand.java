@@ -25,11 +25,16 @@ public class ExampleCommand extends Command {
 
   // Called when the command is initially scheduled.
   @Override
-  public void initialize() {}
+  public void initialize() {
+    m_subsystem.DriveInit();
+  }
 
   // Called every time the scheduler runs while the command is scheduled.
   @Override
-  public void execute() {}
+  public void execute() {
+    m_subsystem.DriveTeleOp();
+    m_subsystem.periodic();
+  }
 
   // Called once the command ends or is interrupted.
   @Override
