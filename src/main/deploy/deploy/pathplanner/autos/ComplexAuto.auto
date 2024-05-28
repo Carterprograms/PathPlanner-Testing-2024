@@ -1,0 +1,49 @@
+{
+  "version": 1.0,
+  "startingPose": {
+    "position": {
+      "x": 1.38,
+      "y": 5.57
+    },
+    "rotation": 0.0
+  },
+  "command": {
+    "type": "sequential",
+    "data": {
+      "commands": [
+        {
+          "type": "path",
+          "data": {
+            "pathName": "Complex Path 1"
+          }
+        },
+        {
+          "type": "path",
+          "data": {
+            "pathName": "Complex Path 2"
+          }
+        },
+        {
+          "type": "path",
+          "data": {
+            "pathName": "Complext Path 3"
+          }
+        },
+        {
+          "type": "path",
+          "data": {
+            "pathName": "Complext Path 4"
+          }
+        },
+        {
+          "type": "path",
+          "data": {
+            "pathName": "Complex Path 5"
+          }
+        }
+      ]
+    }
+  },
+  "folder": null,
+  "choreoAuto": false
+}
